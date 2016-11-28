@@ -1,0 +1,49 @@
+body {
+	font-family: 'Quicksand', sans-serif;
+	font-size: 20px;
+	color: #89b7ae;
+	font-weight: bold;
+}
+
+h1 {
+	border-bottom: solid 2px #eee;
+	font-size: 32px;
+	letter-spacing: 2px;
+	font-weight: bolder;
+	color: #555;
+}
+
+h2 {
+	border-bottom: solid 2px #eee;
+	font-size: 24px;
+	letter-spacing: 1.5px;
+	font-weight: bold;
+	color: #555;
+}
+
+
+a:link {
+	color: #88abc8 !important;
+	text-decoration: none;
+}
+
+a:visited {
+	color: #c4eaee !important;
+	text-decoration: none;
+}
+
+a:hover {
+	color: #c4eaee !important;
+	text-decoration: none;
+}
+
+a:active {
+	color: #c4eaee !important;
+	text-decoration: none;
+}
+
+i {
+	color: inherit;
+}
+
+
