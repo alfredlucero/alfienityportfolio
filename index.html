@@ -3,16 +3,19 @@
 <html lang="en">
 <head>
   <meta charset="utf-8">
-
-  <title>Alfred Lucero | alfienity and beyond</title>
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=0">
   <meta name="description" content="Alfred Lucero's Portfolio">
   <meta name="author" content="Alfred Lucero">
+
+  <title>Alfred Lucero | alfienity and beyond</title>
 	
 	<link href="https://fonts.googleapis.com/css?family=Quicksand" rel="stylesheet">
 	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
 	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
 	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/3.5.2/animate.min.css">
   <link rel="stylesheet" href="css/index.css">
+  <link rel="stylesheet" href="css/aos.css">
 
   <!--[if lt IE 9]>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/html5shiv/3.7.3/html5shiv.js"></script>
@@ -24,8 +27,8 @@
 		<div class="row">
 			
 			<div id="nav" class="col-xs-12 col-md-offset-2 col-md-8">
-					<h1 id="nav-title" class="col-xs-12 col-md-12">Alfred Lucero</h1>
-					<h1>
+					<h1 id="nav-title" data-aos="zoom-in" data-aos-delay="250" data-aos-once="true">Alfred Lucero</h1>
+					<h1 id="social-media-links" data-aos="zoom-in" data-aos-delay="500" data-aos-once="true">
 						<a href="https://www.linkedin.com/in/alfredlucero" target="_blank"><i class="fa fa-linkedin" aria-hidden="true"></i></a>
 						<a href="https://www.facebook.com/alfred.liwanaglucero" target="_blank"><i class="fa fa-facebook" aria-hidden="true"></i></a>
 						<a href="https://twitter.com/alfienitylucero" target="_blank"><i class="fa fa-twitter" aria-hidden="true"></i></a>
@@ -33,7 +36,7 @@
 						<a href="https://github.com/alfredlucero" target="_blank"><i class="fa fa-github" aria-hidden="true"></i></a>
 						<a href="mailto:alfred.lucero@ucla.edu" target="_blank"><i class="fa fa-envelope" aria-hidden="true"></i></a> 
 					</h1>
-					<p>Email: alfred.lucero@ucla.edu Phone: (562)-756-6995</p>
+					<p id="email" data-aos="zoom-in" data-aos-delay="750" data-aos-once="true">alfred.lucero@ucla.edu</p>
 			</div> <!-- end nav -->
 
 		</div> <!-- end row (nav) -->
@@ -41,13 +44,28 @@
 		<div class="row">
 
 			<div id="about" class="col-xs-12 col-md-offset-2 col-md-8">
-				<h2><i class="fa fa-home" aria-hidden="true"></i> About</h2>
-				<h3><i class="fa fa-paint-brush" aria-hidden="true"></i> Passion</h3>
-				<h3><i class="fa fa-university" aria-hidden="true"></i> Education</h3>
-				<p><i class="fa fa-graduation-cap" aria-hidden="true"></i> University of California, Los Angeles '17</p>
-				<p><i class="fa fa-graduation-cap" aria-hidden="true"></i> St. John Bosco High School '13</p>
-				<h3><i class="fa fa-suitcase" aria-hidden="true"></i> Experience</h3>
-				<h3><i class="fa fa-rocket" aria-hidden="true"></i> alfienity and beyond</h3>
+
+				<h2 data-aos="zoom-in" data-aos-delay="1000"><i class="fa fa-home" aria-hidden="true"></i> About</h2>
+
+				<div id="alfienity" class="content-wrapper" data-aos="zoom-in" data-aos-delay="1250">
+					<h3><i class="fa fa-rocket" aria-hidden="true"></i> alfienity and beyond</h3>
+					<p>pogs - pedong or gingin schedules </p>
+					<p>portfelo - social portfolio prototype</p>
+					<p>zmb - zeta mu beta single page application</p>
+				</div> <!-- end alfienity -->
+
+				<div id="education" class="content-wrapper" data-aos="zoom-in" data-aos-delay="1500">
+					<h3><i class="fa fa-university" aria-hidden="true"></i> Education</h3>
+					<p><i class="fa fa-graduation-cap" aria-hidden="true"></i> University of California, Los Angeles - BS Computer Science '17</p>
+					<p><i class="fa fa-graduation-cap" aria-hidden="true"></i> St. John Bosco High School '13</p>
+				</div> <!-- end education -->
+
+				<div id="experience" class="content-wrapper" data-aos="zoom-in" data-aos-delay="1750">
+					<h3><i class="fa fa-suitcase" aria-hidden="true"></i> Experience</h3>
+					<p>Web Developer R&D Year-round Intern - Sandia National Laboratories  06/16-06/17</p>
+					<p>Daily Bruin Online - Online Contributor and Web Development Intern 01/16-06/16</p>
+				</div> <!-- end experience -->
+				
 			</div> <!-- end about -->
 
 		</div> <!-- end row (about) -->
@@ -55,10 +73,14 @@
 		<div class="row">
 
 			<div id="projects" class="col-xs-12 col-md-offset-2 col-md-8">
-				<h2><i class="fa fa-code" aria-hidden="true"></i> Projects</h2>
-				<h3><i class="fa fa-code-fork" aria-hidden="true"></i> Sample project | MM/YY</h3>
-				<p>Sample Description</p>
-				<a href="#">Testing out the link color</a>
+				<h2 data-aos="zoom-in" data-aos-delay="250"><i class="fa fa-code" aria-hidden="true"></i> Projects</h2>
+				<div id="projects-content" class="content-wrapper col-xs-12" data-aos="zoom-in" data-aos="zoom-in" data-aos-delay="500">
+					<h3><i class="fa fa-code-fork" aria-hidden="true"></i> Sample project | MM/YY</h3>
+					<p>Sample Description</p>
+					<p>Sample Description 2</p>
+					<p>Sample Description 3</p>
+				</div> <!-- end projects-content -->
+				
 			</div> <!-- end projects -->
 
 		</div> <!-- end row (projects) -->
@@ -66,17 +88,54 @@
 		<div class="row">
 
 			<div id="interests" class="col-xs-12 col-md-offset-2 col-md-8">
-				<h2><i class="fa fa-user-o" aria-hidden="true"></i> Interests</h2>
-				<h3><i class="fa fa-thumbs-up" aria-hidden="true"></i> Hobbies</h3>
-				<h3><i class="fa fa-podcast" aria-hidden="true"></i> Podcasts</h3>
-				<h3><i class="fa fa-book" aria-hidden="true"></i> Reading List <i></i></h3>
+				
+				<h2 data-aos="zoom-in" data-aos-delay="250"><i class="fa fa-user-o" aria-hidden="true"></i> Interests</h2>
+				
+				<div id="hobbies" class="content-wrapper" data-aos="zoom-in" data-aos-delay="500">
+					<h3><i class="fa fa-thumbs-up" aria-hidden="true"></i> Hobbies</h3>
+					<p>Acoustic Guitar</p>
+					<p>Anime, Online Gaming (LoL, CSGO, Halo, MMORPG)</p>
+					<p>Basketball (Lakers), Tennis (Rafael Nadal)</p>
+				</div> <!-- end hobbies -->
+				
+				<div id="podcasts" class="content-wrapper" data-aos="zoom-in" data-aos-delay="750">
+					<h3><i class="fa fa-podcast" aria-hidden="true"></i> Podcasts</h3>
+					<p>Software Engineering Daily</p>
+					<p>ShopTalk</p>
+					<p>Programming Throwdown</p>
+					<p>Software Engineering Radio</p>
+					<p>Developer Tea</p>
+					<p>Freakonomics</p>
+					<p>Radiolab</p>
+				</div> <!-- end podcasts -->
+	
+				<div id="reading" class="content-wrapper" data-aos="zoom-in" data-aos-delay="1000">
+					<h3><i class="fa fa-book" aria-hidden="true"></i> Reading List <i></i></h3>
+					<p>JavaScript: The Good Parts by Douglas Crockford</p>
+					<p>HTML & CSS: Design and Build Web Sites by Jon Duckett</p>
+					<p>JavaScript and jQuery: Interactive Front-End Web Development by Jon Duckett</p>
+					<p>Eloquent JavaScript by Marijn Haverbeke</p>
+					<p>You Don't Know JS: Up & Going by Kyle Simpson</p>
+					<p>You Don't Know JS: this & Object Prototypes by Kyle Simpson</p>
+					<p>You Don't Know JS: Types & Grammar by Kyle Simpson</p>
+					<p>You Don't Know JS: Async & Performance by Kyle Simpson</p>
+					<p>You Don't Know JS: ES6 & Beyond by Kyle Simpson</p>
+				</div> <!-- end reading -->
+				
 			</div> <!-- end interests -->
 
 		</div> <!-- end row (interests) -->
 
 	</div> <!-- end container-fluid -->
 	
+	<script src="js/aos.js"></script>
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/2.2.4/jquery.min.js"></script>
 	<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+	<script>
+		AOS.init({
+  		duration: 800
+		});
+	</script>
 </body>
 
 </html>

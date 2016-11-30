@@ -53,6 +53,11 @@ i {
 	color: inherit;
 }
 
+.content-wrapper {
+	padding: 0;
+	margin: 0;
+}
+
 #nav-title {
 	padding: 0
 }
