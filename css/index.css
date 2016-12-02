@@ -2,7 +2,6 @@ body {
 	font-family: 'Quicksand', sans-serif;
 	font-size: 20px;
 	color: #89b7ae;
-	font-weight: bold;
 }
 
 h1 {
@@ -25,7 +24,13 @@ h3 {
 	border: solid 2px #555;
 	font-size: 24px;
 	letter-spacing: 1px;
-	color: #333
+	color: #333;
+	font-weight: 500;
+}
+
+p,
+li {
+	font-weight: 550;
 }
 
 
