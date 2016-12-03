@@ -62,4 +62,11 @@ i {
 	padding: 0
 }
 
+#alfienity-img {
+	width: 150px;
+	height: 150px;
+	border-radius: 50%;
+	border: solid 5px #eee;
+}
+
 
