@@ -1,7 +1,8 @@
 body {
 	font-family: 'Quicksand', sans-serif;
-	font-size: 20px;
-	color: #89b7ae;
+	font-size: 16px;
+	font-weight: bold;
+	color: #777;
 }
 
 h1 {
@@ -16,7 +17,6 @@ h2 {
 	border-bottom: solid 2px #eee;
 	font-size: 28px;
 	letter-spacing: 1.5px;
-	font-weight: bold;
 	color: #555;
 }
 
@@ -25,22 +25,16 @@ h3 {
 	font-size: 24px;
 	letter-spacing: 1px;
 	color: #333;
-	font-weight: 500;
 }
 
-p,
-li {
-	font-weight: 550;
+h4 {
+	font-size: 20px;
+	color: #89b7ae;
 }
 
 
 a:link {
 	color: #88abc8 !important;
-	text-decoration: none;
-}
-
-a:visited {
-	color: #c4eaee !important;
 	text-decoration: none;
 }
 
