@@ -2,7 +2,8 @@ body {
 	font-family: 'Quicksand', sans-serif;
 	font-size: 16px;
 	font-weight: bold;
-	color: #777;
+	/*color: #777; */
+	color: #595959;
 }
 
 h1 {
@@ -29,7 +30,7 @@ h3 {
 
 h4 {
 	font-size: 20px;
-	color: #89b7ae;
+	color: #487c8a;
 	font-weight: bold;
 }
 
