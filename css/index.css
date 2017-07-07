@@ -40,6 +40,11 @@ a:link {
 	text-decoration: none;
 }
 
+a:visited {
+	color: #88abc8 !important;
+	text-decoration: none;
+}
+
 a:hover {
 	color: #c4eaee !important;
 	text-decoration: none;
